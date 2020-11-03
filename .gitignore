@@ -6,6 +6,7 @@ dist
 .cache
 
 # IDE - VSCode
+.idea/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
