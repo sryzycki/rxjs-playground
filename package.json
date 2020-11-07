@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel *.html"
   },
   "author": "Brian Troncone, Ultimate Courses",
   "license": "MIT"

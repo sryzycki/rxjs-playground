@@ -71,3 +71,40 @@ body {
   position: relative;
   top: 6px;
 }
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+
+.countdown-container {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  height: 4px;
+  width: 0%;
+  background: #ff16b7;
+}
+
+
+.morgage-calculator {
+  max-width: 500px;
+  padding: 10px;
+  margin: 20px auto;
+  border: #ccc solid 1px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  font-size: 16px;
+  line-height: 1.4;
+}

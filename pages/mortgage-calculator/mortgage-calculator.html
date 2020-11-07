@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>RxJS Starter - Ultimate Courses</title>
+    <link href="../../styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <div class="logo-ultimate"></div>
+        <p class="logo-name">Ultimate Courses<span>&trade;</span></p>
+      </div>
+    </header>
+
+    <main id="app">
+      <a href="/">Go to the home page!</a><br><br><hr><br><br>
+      <h1>Morgage Calculator</h1>
+
+      <article class="morgage-calculator">
+        <section class="form-wrapper">
+          <label for="loanAmount">Mortgage Amount ($)</label>
+          <input type="number" name="loanAmount" id="loanAmount" />
+        </section>
+
+        <section class="form-wrapper">
+          <label for="interest">Interest Rate (%)</label>
+          <input type="number" name="interest" id="interest" />
+        </section>
+
+        <section class="form-wrapper">
+          <label for="loanLength">Morgage Length (month)</label>
+          <div>
+            0 <input type="range" name="loanLength" id="loanLength" min="0" max="360" step="12"> 360
+          </div>
+        </section>
+
+        <br>
+        <p>
+          Your expected monthly payment is: $<strong id="expected"></strong>
+        </p>
+      </article>
+
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

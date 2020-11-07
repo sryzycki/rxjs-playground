@@ -1,8 +1,18 @@
-import { of } from 'rxjs';
-
-/*
- * Any code samples you want to play with can go in this file.
- * Updates will trigger a live reload on http://localhost:1234/
- * after running npm start.
- */
-of('Hello', 'RxJS').subscribe(console.log);
+import {Observable, combineLatest, of, fromEvent, timer, interval} from 'rxjs';
+import {ajax} from 'rxjs/ajax';
+import {
+  delay,
+  exhaustMap,
+  map,
+  mapTo,
+  mergeMap,
+  filter,
+  tap,
+  finalize,
+  scan,
+  takeUntil,
+  mergeMapTo,
+  pluck,
+  share,
+  switchMapTo
+} from 'rxjs/operators';
